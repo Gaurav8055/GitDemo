@@ -95,6 +95,13 @@ public class Controller {
 		return service.findEmployeesBySalGreaterThan(sal);
 	}
 	
+	// branch1 controller 1 : 2
+		@GetMapping("/findBySalGreaterThan")
+		public List<Employee> findEmployeesBySalGreaterThan3(@RequestParam double sal)
+		{
+			return service.findEmployeesBySalGreaterThan(sal);
+		}
+	
 	
 
 }
