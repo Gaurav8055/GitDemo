@@ -88,14 +88,14 @@ public class Controller {
 	{
 		return service.findEmployeesBySalGreaterThan(sal);
 	}
-	// branch1 controller 1 
+	// branch2 controller 1 
 	@GetMapping("/findBySalGreaterThan")
 	public List<Employee> findEmployeesBySalGreaterThan2(@RequestParam double sal)
 	{
 		return service.findEmployeesBySalGreaterThan(sal);
 	}
 	
-	// branch1 controller 1 : 2
+	// branch2 controller 25
 		@GetMapping("/findBySalGreaterThan")
 		public List<Employee> findEmployeesBySalGreaterThan3(@RequestParam double sal)
 		{
